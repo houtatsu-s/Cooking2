@@ -47,7 +47,7 @@ body {
   margin: 0 0 20px;
 }
 .con-info > ul {
-  width: 100%;
+  width: auto;
   margin: 0 0 40px;
 }
 .con-info > ul > li {
@@ -82,8 +82,73 @@ body {
   display: inline-block;
   border: 1px solid #2B2A27;
   padding: 18px 60px;
+  margin: 0 0 100px;
 }
 .btn > a {
   font-size: 14px;
   color: #2B2A27;
 }
+
+.sns-list {
+  justify-content: center;
+  display: flex;
+  margin: 0 0 10px;
+}
+.sns-list > li {
+  border-bottom: 1px solid #2B2A27;
+  margin: 0 20px 0 0;
+}
+.sns-list > li:last-child {
+  margin: 0;
+}
+.sns-list > li > a {
+  color: #2B2A27;
+  font-size: 12px;
+}
+
+@media (max-width:834px) {
+  .container {
+    display: block;
+  }
+  .con-img,
+  .con-info {
+    width: 100%;
+    height: auto;
+  }
+  .con-info {
+    padding: 0;
+  }
+  .info-title {
+    padding: 0 3%;
+  }
+  .info-text {
+    max-width: 100%;
+    width: auto;
+    padding: 0 3%;
+  }
+  .info-name {
+    margin: 0 3% 20px;
+  }
+  .con-info > ul {
+    margin: 0 3% 40px;
+  }
+  .con-info > ol {
+    width: calc(100% - 6%);
+  }
+  .con-info > ol > li {
+    width: calc(100% - 3%);
+  }
+
+}
+
+/* フッター部分 */
+footer {
+  width: 100%;
+  padding: 10px 0;
+  text-align: center;
+}
+footer-text {
+  font-size: 12px;
+  color: #2B2A27;
+}
+/* フッター部分 */
