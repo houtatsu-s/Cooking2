@@ -133,7 +133,8 @@ body {
     margin: 0 3% 40px;
   }
   .con-info > ol {
-    width: calc(100% - 6%);
+    width: calc(100% - 8%);
+    margin: 0 0 0 3%;
   }
   .con-info > ol > li {
     width: calc(100% - 3%);
